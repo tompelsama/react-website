@@ -331,6 +331,12 @@
   width: 50%;
 }
 
+@media only screen and (max-width: 500px) {
+    .container-40 {
+      margin: 25vh auto;
+    }
+}
+
 #experience {
   width: 50%;
   height: 100%;
