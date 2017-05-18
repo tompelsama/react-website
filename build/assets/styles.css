@@ -290,6 +290,12 @@
   width: 400px;
 }
 
+@media only screen and (max-width: 900px) {
+    .sosmed-area {
+        width: 375px;
+    }
+}
+
 .sosmed-icon:hover {
   opacity: 0.6;
 }
