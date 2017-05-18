@@ -1,5 +1,5 @@
 @media only screen and (max-width: 900px) {
-    col-xs-6 {
+    .col-xs-6 {
       width: 33%;
     }
 }
