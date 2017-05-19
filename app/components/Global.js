@@ -8,12 +8,18 @@ import Contact from './Contact';
 import Sosmed from './Sosmed';
 import Backtop from './Backtop';
 
+let Scroll = require('react-scroll');
+let scroller = Scroll.scroller;
+let Element = Scroll.Element;
+
 class Global extends Component {
 	render() {
 		return (
 			<div className='animate-bottom'>
 
-				<div className='front'>
+				<div className='front' onClick={() => scroller.scrollTo('about-me', {
+					smooth: true
+				})}>
 					<div className='divider' />
 					<div className="text-container">
 						<div className='name'>
@@ -25,7 +31,10 @@ class Global extends Component {
 					</div>
 				</div>
 
-				<div className='wrapper'>
+				<div className='wrapper' onClick={() => scroller.scrollTo('my-experience', {
+					smooth: true
+				})}>
+					<Element name='about-me' />
 					<div id='about'>
 						<div className='container-40 white'>
 							<h1>Hello world!</h1>
@@ -43,7 +52,10 @@ class Global extends Component {
 					</div>
 				</div>
 
-				<div className='wrapper'>
+				<div className='wrapper' onClick={() => scroller.scrollTo('my-skill', {
+					smooth: true
+				})}>
+					<Element name='my-experience' />
 					<div className='container-40 align-center'>
 						<img src="./assets/media/user.png" alt='experience' className='middle-history'/>
 					</div>
@@ -54,7 +66,10 @@ class Global extends Component {
 					</div>
 				</div>
 
-				<div className='wrapper'>
+				<div className='wrapper' onClick={() => scroller.scrollTo('book-search', {
+					smooth: true
+				})}>
+					<Element name='my-skill' />
 					<div id='skills'>
 						<div className='container-20 white'>
 						<Skills />
@@ -68,7 +83,10 @@ class Global extends Component {
 				</div>
 
 				<div className='wrapper'>
-					<div className='about-photo'>
+					<Element name='book-search' />
+					<div className='about-photo' onClick={() => scroller.scrollTo('contact', {
+						smooth: true
+					})}>
 						<div className="circles mid-react">
 						  <div></div>
 						  <div></div>
@@ -83,6 +101,7 @@ class Global extends Component {
 				</div>
 
 				<div className='footer'>
+					<Element name='contact' />
 					<div className='divider-bottom' />
 					<div className='front-footer'>
 						<div id='contact'>

@@ -29984,6 +29984,10 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+	var Scroll = __webpack_require__(745);
+	var scroller = Scroll.scroller;
+	var Element = Scroll.Element;
+
 	var Global = function (_Component) {
 		_inherits(Global, _Component);
 
@@ -30001,7 +30005,11 @@
 					{ className: 'animate-bottom' },
 					_react2.default.createElement(
 						'div',
-						{ className: 'front' },
+						{ className: 'front', onClick: function onClick() {
+								return scroller.scrollTo('about-me', {
+									smooth: true
+								});
+							} },
 						_react2.default.createElement('div', { className: 'divider' }),
 						_react2.default.createElement(
 							'div',
@@ -30028,7 +30036,12 @@
 					),
 					_react2.default.createElement(
 						'div',
-						{ className: 'wrapper' },
+						{ className: 'wrapper', onClick: function onClick() {
+								return scroller.scrollTo('my-experience', {
+									smooth: true
+								});
+							} },
+						_react2.default.createElement(Element, { name: 'about-me' }),
 						_react2.default.createElement(
 							'div',
 							{ id: 'about' },
@@ -30060,7 +30073,12 @@
 					),
 					_react2.default.createElement(
 						'div',
-						{ className: 'wrapper' },
+						{ className: 'wrapper', onClick: function onClick() {
+								return scroller.scrollTo('my-skill', {
+									smooth: true
+								});
+							} },
+						_react2.default.createElement(Element, { name: 'my-experience' }),
 						_react2.default.createElement(
 							'div',
 							{ className: 'container-40 align-center' },
@@ -30078,7 +30096,12 @@
 					),
 					_react2.default.createElement(
 						'div',
-						{ className: 'wrapper' },
+						{ className: 'wrapper', onClick: function onClick() {
+								return scroller.scrollTo('book-search', {
+									smooth: true
+								});
+							} },
+						_react2.default.createElement(Element, { name: 'my-skill' }),
 						_react2.default.createElement(
 							'div',
 							{ id: 'skills' },
@@ -30101,9 +30124,14 @@
 					_react2.default.createElement(
 						'div',
 						{ className: 'wrapper' },
+						_react2.default.createElement(Element, { name: 'book-search' }),
 						_react2.default.createElement(
 							'div',
-							{ className: 'about-photo' },
+							{ className: 'about-photo', onClick: function onClick() {
+									return scroller.scrollTo('contact', {
+										smooth: true
+									});
+								} },
 							_react2.default.createElement(
 								'div',
 								{ className: 'circles mid-react' },
@@ -30127,6 +30155,7 @@
 					_react2.default.createElement(
 						'div',
 						{ className: 'footer' },
+						_react2.default.createElement(Element, { name: 'contact' }),
 						_react2.default.createElement('div', { className: 'divider-bottom' }),
 						_react2.default.createElement(
 							'div',
