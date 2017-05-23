@@ -50433,7 +50433,9 @@
 									}
 								}
 							}),
-							_react2.default.createElement(_reactTappable2.default, { onTap: this.handleTapEvent }),
+							_react2.default.createElement(_reactTappable2.default, { onTap: function onTap(event) {
+									return _this3.setState({ query: event.target.value });
+								} }),
 							_react2.default.createElement(
 								_reactBootstrap.InputGroup.Addon,
 								{ onClick: function onClick() {

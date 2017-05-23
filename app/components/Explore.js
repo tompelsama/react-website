@@ -42,7 +42,7 @@ class Explore extends Component {
 							}} 
 						>
 						</FormControl>
-						<Tappable onTap={() => this.search()} />
+						<Tappable onTap={event => this.setState({query: event.target.value})} />
 						<InputGroup.Addon onClick={() => this.search()}>
 							<Glyphicon glyph='search'></Glyphicon>
 						</InputGroup.Addon>
