@@ -50436,9 +50436,7 @@
 							_react2.default.createElement(
 								_reactBootstrap.InputGroup.Addon,
 								{
-									onClick: function onClick() {
-										return _this3.search();
-									},
+
 									onTouchStart: function onTouchStart() {
 										return _this3.search();
 									}
