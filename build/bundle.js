@@ -50433,15 +50433,18 @@
 									}
 								}
 							}),
-							_react2.default.createElement(_reactTappable2.default, { onTap: function onTap(event) {
-									return _this3.setState({ query: event.target.value });
-								} }),
 							_react2.default.createElement(
 								_reactBootstrap.InputGroup.Addon,
 								{ onClick: function onClick() {
 										return _this3.search();
 									} },
-								_react2.default.createElement(_reactBootstrap.Glyphicon, { glyph: 'search' })
+								_react2.default.createElement(
+									_reactTappable2.default,
+									{ onTap: function onTap() {
+											return _this3.search();
+										} },
+									_react2.default.createElement(_reactBootstrap.Glyphicon, { glyph: 'search' })
+								)
 							)
 						)
 					),
