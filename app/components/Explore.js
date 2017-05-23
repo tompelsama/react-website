@@ -41,10 +41,11 @@ class Explore extends Component {
 								}
 							}} 
 						/>
-						<InputGroup.Addon onClick={() => this.search()}>
-							<Tappable onTap={() => this.search()}>
+						<InputGroup.Addon 
+							onClick={() => this.search()}
+							onTouchStart={() => this.search()}
+						>
 								<Glyphicon glyph='search'></Glyphicon>
-							</Tappable>
 						</InputGroup.Addon>
 					</InputGroup>
 				</FormGroup>

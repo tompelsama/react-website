@@ -50435,16 +50435,15 @@
 							}),
 							_react2.default.createElement(
 								_reactBootstrap.InputGroup.Addon,
-								{ onClick: function onClick() {
+								{
+									onClick: function onClick() {
 										return _this3.search();
-									} },
-								_react2.default.createElement(
-									_reactTappable2.default,
-									{ onTap: function onTap() {
-											return _this3.search();
-										} },
-									_react2.default.createElement(_reactBootstrap.Glyphicon, { glyph: 'search' })
-								)
+									},
+									onTouchStart: function onTouchStart() {
+										return _this3.search();
+									}
+								},
+								_react2.default.createElement(_reactBootstrap.Glyphicon, { glyph: 'search' })
 							)
 						)
 					),
