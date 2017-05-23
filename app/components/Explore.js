@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 import Gallery from './Gallery';
 
 class Explore extends Component {
@@ -34,7 +35,7 @@ class Explore extends Component {
 							placeholder='Search for a book' 
 							onChange={event => this.setState({query: event.target.value})}
 							onKeyPress={event => {
-								if (event.key === 'Enter') {
+								if (event.key === 'Enter' | event.key === 'Return') {
 									this.search();
 								}
 							}} 
