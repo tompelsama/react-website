@@ -366,7 +366,7 @@
 
 #experiment {
   width: 50%;
-  min-height: 100%;
+  height: 100%;
   background-color: #4EC5C1;
   overflow-y: auto;
 }

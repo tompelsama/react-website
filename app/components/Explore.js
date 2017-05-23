@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
+import Tappable from 'react-tappable';
 import PropTypes from 'prop-types';
 import Gallery from './Gallery';
 
@@ -35,11 +36,13 @@ class Explore extends Component {
 							placeholder='Search for a book' 
 							onChange={event => this.setState({query: event.target.value})}
 							onKeyPress={event => {
-								if (event.key === 'Enter' | event.key === 'Return') {
+								if (event.key === 'Enter') {
 									this.search();
 								}
 							}} 
-						/>
+						>
+						</FormControl>
+						<Tappable onTap={() => this.search()} />
 						<InputGroup.Addon onClick={() => this.search()}>
 							<Glyphicon glyph='search'></Glyphicon>
 						</InputGroup.Addon>

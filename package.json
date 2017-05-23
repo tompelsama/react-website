@@ -34,7 +34,9 @@
   },
   "dependencies": {
     "aos": "^2.1.1",
+    "create-react-class": "^15.5.3",
     "prop-types": "^15.5.10",
-    "react-scroll": "^1.5.2"
+    "react-scroll": "^1.5.2",
+    "react-tappable": "^1.0.0"
   }
 }
