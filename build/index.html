@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>Tommy Saputra</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="stylesheet" href="./assets/vendor/aos.css"
   </head>
@@ -12,6 +14,12 @@
     <div id="root"></div>
     <script src="bundle.js" charset="utf-8"></script>
     <script src="./assets/vendor/aos.js"></script>
-    <script>AOS.init();</script>
+    <script>
+      AOS.init({
+        offset: 200,
+        easing: 'ease-in-sine',
+      });
+
+    </script>
   </body>
 </html>

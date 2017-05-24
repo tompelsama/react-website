@@ -37,6 +37,8 @@
     "create-react-class": "^15.5.3",
     "prop-types": "^15.5.10",
     "react-scroll": "^1.5.2",
-    "react-tappable": "^1.0.0"
+    "react-slick": "^0.14.11",
+    "react-tappable": "^1.0.0",
+    "slick-carousel": "^1.6.0"
   }
 }

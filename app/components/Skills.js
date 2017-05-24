@@ -7,7 +7,7 @@ class Skills extends Component {
 				<h3>Summary of I.T. Skills</h3>
 				<ul>
 					<li>Languages: </li>
-					<p>HTML, CSS, JavaScript, PHP, SCSS, SASS, Java, C++</p>
+					<p>HTML, CSS, JavaScript, PHP, SCSS, Sass, Java, C++</p>
 					<li>Framework: </li>
 					<p>Bootsrap, Bourbon Neat, Foundation, Jquery, React.js</p>
 					<li>Automation: </li>

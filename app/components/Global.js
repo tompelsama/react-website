@@ -52,11 +52,11 @@ class Global extends Component {
 					</div>
 				</div>
 
-				<div className='wrapper' onClick={() => scroller.scrollTo('my-skill', {
+				<div className='wrapper'>
+					<Element name='my-experience' />
+					<div className='container-40 align-center' onClick={() => scroller.scrollTo('my-skill', {
 					smooth: true
 				})}>
-					<Element name='my-experience' />
-					<div className='container-40 align-center'>
 						<img src="./assets/media/user.png" alt='experience' className='middle-history'/>
 					</div>
 					<div id='experience'>
