@@ -30270,7 +30270,7 @@
 					null,
 					_react2.default.createElement(
 						'h3',
-						{ 'data-aos': 'fade-left', 'data-aos-delay': '300', 'data-aos-once': 'true' },
+						{ 'data-aos': 'fade-left', 'data-aos-delay': '300', 'data-aos-once': 'true', className: 'exper-title' },
 						'Professional Experience'
 					),
 					_react2.default.createElement(
@@ -30321,7 +30321,7 @@
 					),
 					_react2.default.createElement(
 						'h3',
-						{ 'data-aos': 'fade-left', 'data-aos-delay': '600', 'data-aos-once': 'true' },
+						{ 'data-aos': 'fade-left', 'data-aos-delay': '600', 'data-aos-once': 'true', className: 'exper-title' },
 						'Clients'
 					),
 					_react2.default.createElement(
@@ -30339,7 +30339,7 @@
 									_react2.default.createElement(
 										_reactBootstrap.Media.Left,
 										null,
-										_react2.default.createElement('img', { src: './assets/media/marchand.png', alt: 'Marchandwatches' })
+										_react2.default.createElement('img', { src: './assets/media/marchand.png', alt: 'Marchandwatches', className: 'align-center' })
 									),
 									_react2.default.createElement(
 										_reactBootstrap.Media.Body,
@@ -30396,7 +30396,7 @@
 									_react2.default.createElement(
 										_reactBootstrap.Media.Left,
 										null,
-										_react2.default.createElement('img', { src: './assets/media/birdbrain.png', alt: 'BirdBrain' })
+										_react2.default.createElement('img', { src: './assets/media/birdbrain.png', alt: 'BirdBrain', className: 'align-center' })
 									),
 									_react2.default.createElement(
 										_reactBootstrap.Media.Body,
@@ -30471,7 +30471,7 @@
 									_react2.default.createElement(
 										_reactBootstrap.Media.Left,
 										null,
-										_react2.default.createElement('img', { src: './assets/media/landpearl.png', alt: 'Landpearl' })
+										_react2.default.createElement('img', { src: './assets/media/landpearl.png', alt: 'Landpearl', className: 'align-center' })
 									),
 									_react2.default.createElement(
 										_reactBootstrap.Media.Body,

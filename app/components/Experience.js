@@ -13,7 +13,7 @@ class Experience extends Component {
 		};
 		return (
 			<div>
-				<h3 data-aos='fade-left' data-aos-delay='300' data-aos-once='true'>Professional Experience</h3>
+				<h3 data-aos='fade-left' data-aos-delay='300' data-aos-once='true' className="exper-title">Professional Experience</h3>
 				<div>
 				<Media className='border' data-aos='fade-left' data-aos-delay='400' data-aos-once='true'>
 					<Media.Left>
@@ -33,14 +33,14 @@ class Experience extends Component {
 				</Media>
 				</div>
 
-				<h3 data-aos='fade-left' data-aos-delay='600' data-aos-once='true'>Clients</h3>
+				<h3 data-aos='fade-left' data-aos-delay='600' data-aos-once='true' className="exper-title">Clients</h3>
 				
 				<div>
 					<Slider {...settings}>
 						<div>
 							<Media className='border' data-aos='fade-left' data-aos-delay='800' data-aos-once='true'>
 								<Media.Left>
-									<img src='./assets/media/marchand.png' alt='Marchandwatches' />
+									<img src='./assets/media/marchand.png' alt='Marchandwatches' className="align-center"/>
 								</Media.Left>
 								<Media.Body>
 									<Media.Heading>
@@ -64,7 +64,7 @@ class Experience extends Component {
 						<div>
 							<Media className='border'>
 								<Media.Left>
-									<img src='./assets/media/birdbrain.png' alt='BirdBrain' />
+									<img src='./assets/media/birdbrain.png' alt='BirdBrain' className="align-center" />
 								</Media.Left>
 								<Media.Body>
 									<Media.Heading>
@@ -89,7 +89,7 @@ class Experience extends Component {
 						<div>
 							<Media className='border'>
 								<Media.Left>
-									<img src='./assets/media/landpearl.png' alt='Landpearl' />
+									<img src='./assets/media/landpearl.png' alt='Landpearl' className="align-center"/>
 								</Media.Left>
 								<Media.Body>
 									<Media.Heading>
