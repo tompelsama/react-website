@@ -52,7 +52,7 @@ class Global extends Component {
 					</div>
 				</div>
 
-				<div className='wrapper'>
+				<div className='wrapper no-scroll'>
 					<Element name='my-experience' />
 					<div className='container-40 align-center' onClick={() => scroller.scrollTo('my-skill', {
 					smooth: true
@@ -66,7 +66,7 @@ class Global extends Component {
 					</div>
 				</div>
 
-				<div className='wrapper' onClick={() => scroller.scrollTo('book-search', {
+				<div className='wrapper no-scroll' onClick={() => scroller.scrollTo('book-search', {
 					smooth: true
 				})}>
 					<Element name='my-skill' />
