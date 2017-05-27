@@ -30107,7 +30107,7 @@
 					),
 					_react2.default.createElement(
 						'div',
-						{ className: 'wrapper' },
+						{ className: 'wrapper no-scroll' },
 						_react2.default.createElement(Element, { name: 'my-experience' }),
 						_react2.default.createElement(
 							'div',
@@ -30130,7 +30130,7 @@
 					),
 					_react2.default.createElement(
 						'div',
-						{ className: 'wrapper', onClick: function onClick() {
+						{ className: 'wrapper no-scroll', onClick: function onClick() {
 								return scroller.scrollTo('book-search', {
 									smooth: true
 								});
