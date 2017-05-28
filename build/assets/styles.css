@@ -346,9 +346,15 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .container-40 {
-      margin: 25vh auto;
-    }
+  .container-40 {
+    margin: 25vh auto;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .container-40 {
+    margin: 25vh auto;
+  }
 }
 
 #experience {
@@ -361,7 +367,20 @@
 @media only screen and (max-width: 900px) {
     #experience {
       width: 100%;
+      display: inline-block;
     }
+}
+
+@media only screen and (max-width: 500px) {
+  #experience {
+    overflow-y: unset;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  #experience {
+    overflow-y: unset;
+  }
 }
 
 @media only screen and (max-height: 750px) {
