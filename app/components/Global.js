@@ -39,16 +39,19 @@ class Global extends Component {
 						<div className='container-40 white'>
 							<h1>Hello world!</h1>
 							<p>
-								I&#39;m Tommy, an Indonesian guy living in Sydney, Australia.
+								I&#39;m Tommy Saputra, an Indonesian guy living in Sydney, Australia.
 							</p>
 							<p>
 								I currently looking for a dream job, place where I can develop my self and
-								create something cool. I work as a Front End Developer at the moment and wait for my next project..!
+								create something cool. I work as a Web Developer Freelance at the moment.
+							</p>
+							<p>
+								Please say hi if you see me and wait for my next project...
 							</p>
 						</div>
 					</div>
 					<div className='about-photo'>
-						<img src="./assets/media/me.jpg" alt='my picture' className='photo'/>
+							<img src="./assets/media/me.jpg" alt='my picture' className='photo'/>
 					</div>
 				</div>
 

@@ -12,6 +12,12 @@
   }
 }
 
+/*.diagonal {
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><line x1='0' y1='0' x2='100%' y2='100%' stroke='#091524' stroke-width='2'/></svg>") no-repeat;
+}*/
+
 .pointer {
   cursor: pointer;
 }
@@ -212,6 +218,7 @@
   width: 100%;
   display: flex;
   background-color: #ececec;
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -267,7 +274,7 @@
 }
 
 .middle {
-  margin: 6rem auto; 
+  margin: 15vh auto; 
 }
 
 .middle-history {

@@ -30090,12 +30090,17 @@
 								_react2.default.createElement(
 									'p',
 									null,
-									'I\'m Tommy, an Indonesian guy living in Sydney, Australia.'
+									'I\'m Tommy Saputra, an Indonesian guy living in Sydney, Australia.'
 								),
 								_react2.default.createElement(
 									'p',
 									null,
-									'I currently looking for a dream job, place where I can develop my self and create something cool. I work as a Front End Developer at the moment and wait for my next project..!'
+									'I currently looking for a dream job, place where I can develop my self and create something cool. I work as a Web Developer Freelance at the moment.'
+								),
+								_react2.default.createElement(
+									'p',
+									null,
+									'Please say hi if you see me and wait for my next project...'
 								)
 							)
 						),
