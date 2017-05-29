@@ -44,6 +44,7 @@ class Explore extends Component {
 						<InputGroup.Addon 
 							onClick={() => this.search()}
 							onTouchStart={() => this.search()}
+							className="pointer"
 						>
 								<Glyphicon glyph='search'></Glyphicon>
 						</InputGroup.Addon>

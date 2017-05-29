@@ -53546,7 +53546,8 @@
 									},
 									onTouchStart: function onTouchStart() {
 										return _this3.search();
-									}
+									},
+									className: 'pointer'
 								},
 								_react2.default.createElement(_reactBootstrap.Glyphicon, { glyph: 'search' })
 							)
