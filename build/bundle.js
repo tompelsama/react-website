@@ -53505,7 +53505,7 @@
 
 					_this2.setState({ items: items });
 				});
-				console.log('search', this.state.query);
+				// console.log('search', this.state.query);
 			}
 		}, {
 			key: 'render',
@@ -53539,17 +53539,15 @@
 								}
 							}),
 							_react2.default.createElement(
-								_reactBootstrap.InputGroup.Addon,
-								{
-									onClick: function onClick() {
-										return _this3.search();
-									},
-									onTouchStart: function onTouchStart() {
-										return _this3.search();
-									},
-									className: 'pointer'
-								},
-								_react2.default.createElement(_reactBootstrap.Glyphicon, { glyph: 'search' })
+								_reactBootstrap.InputGroup.Button,
+								null,
+								_react2.default.createElement(
+									_reactBootstrap.Button,
+									{ onClick: function onClick() {
+											return _this3.search();
+										}, className: 'pointer' },
+									_react2.default.createElement(_reactBootstrap.Glyphicon, { glyph: 'search' })
+								)
 							)
 						)
 					),

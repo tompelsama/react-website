@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
+import { Button, FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
 import Tappable from 'react-tappable';
 import PropTypes from 'prop-types';
 import Gallery from './Gallery';
@@ -22,7 +22,7 @@ class Explore extends Component {
 				let { items } = json;
 				this.setState({items})
 			});
-		console.log('search', this.state.query);
+		// console.log('search', this.state.query);
 	}
 
 	render() {
@@ -41,13 +41,11 @@ class Explore extends Component {
 								}
 							}} 
 						/>
-						<InputGroup.Addon 
-							onClick={() => this.search()}
-							onTouchStart={() => this.search()}
-							className="pointer"
-						>
+						<InputGroup.Button>
+							<Button onClick={() => this.search()} className="pointer">
 								<Glyphicon glyph='search'></Glyphicon>
-						</InputGroup.Addon>
+							</Button>
+						</InputGroup.Button>
 					</InputGroup>
 				</FormGroup>
 				<Gallery items={this.state.items}/>
